@@ -1,0 +1,15 @@
+caption{
+    background-color: lightblue;
+    border-color: rgb(26, 3, 3);
+}
+
+th{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;    
+}
+td{
+    border-color: rgb(19, 185, 44);
+    border-width: 2px;
+    border-style: solid;
+}
