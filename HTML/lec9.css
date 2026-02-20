@@ -1,0 +1,8 @@
+.red{
+    /* class ko dot(.) se call krte hai .red mtlb red name ki class ko call kiya */
+    color: red;
+}
+#first{
+    /* id ko hash(#) se call krte hai #first mtlb first name ki id ko call kiya */
+    color: blue;
+}
