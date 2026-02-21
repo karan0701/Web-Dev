@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*    element selector */
+        div{   
+        color: red;
+            background-color: cyan;
+        }
+        /* class selector */
+        .hello{
+            color: blue;
+        }
+        /* id selector */
+        #id{
+            color: green;
+        }
+        /* child selectors */
+
+        div > p{
+            background-color: rgb(42, 205, 34);
+            color: purple;
+        }
+
+        /* universal selector  */
+        *{
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selectors */
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: blue;
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <div>
+        I am div
+    </div>
+    <div class="hello">
+        this is another div 
+    </div>
+    <div id="id">
+        this is third div and have an id
+    </div>
+    <div>
+        <p>this is a paragraph tag and also act as a child of div</p>
+    </div>
+    <a href="https://www.google.com">Go to google</a>
+</body>
+</html>
