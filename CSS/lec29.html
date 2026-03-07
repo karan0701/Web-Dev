@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design a Card</title>
+    <link rel="stylesheet" href="lec29.css">
+    <style>
+        body{
+            background-color: gray;
+        }
+        .card{
+            background-color: antiquewhite;
+            width: 300px;
+            height: 500px;
+            border-radius: 7px;
+            
+        }
+        .image{
+            padding: 10px;
+        }
+        .image img{
+            border-radius: 7px;
+
+        }
+        .content
+        {
+            padding: 10px;
+        }
+        .capsules span{
+            border: 2px solid black ;
+            padding: 0px 5px;
+            border-radius: 5px;
+            background-color: lightgray;
+        }
+        .capsules{
+            gap: 10px;
+            padding: 0px 15px;
+        }
+        h2{
+            padding: 0px ;
+                margin: 0px;
+        }
+        .button{
+            text-align: center;  
+        }
+        .button button{
+            border-radius: 5px;
+            border-color: lightskyblue;
+            padding: 2px 8px;
+            color: rgb(3, 3, 92);
+            background-color: lightskyblue;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .button button:hover{
+            background-color: rgb(142, 142, 210);
+            /* color: white; */
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="280px" src="image.jpg" alt="">
+        </div>
+        <div class="capsules">
+           <span>Nature</span>
+           <span>Lake</span>
+        </div>
+        <div class="content">
+        <h2>Karan</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At qui fugit recusandae. Explicabo assumenda accusantium veniam enim fugiat molestiae obcaecati sint eveniet. Maiores atque excepturi dignissimos fugiat eaque commodi esse?</p>
+        </div>
+        <div class="button">
+            <button>Read More...</button>
+        </div>
+    </div> 
+
+</body>
+</html>
