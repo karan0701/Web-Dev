@@ -1,0 +1,19 @@
+body {
+  background-color: red;
+  
+}
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: lightseagreen;
+    }
+  }
+
+  .box{
+    height: 344px;
+    width: 344px;
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+  }
