@@ -1,11 +1,47 @@
+    <!-- create a multicolor website which can change colors using CSS variables -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        :root{
+            --primary-color: lightseagreen;
+            --tertiary-color: lightcoral;
+        }
+        body{
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+        }
+        nav ul{
+            margin: 10px;
+          padding: 10px;;
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            justify-content: right;
+        }
+        nav ul li{
+            background-color: var(--tertiary-color);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
 </body>
 </html>
