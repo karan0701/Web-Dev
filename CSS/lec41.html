@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navbar using flexbox</title>
+    <style>
+        .logo img{
+            width: 200px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .right ul{
+            display: flex;
+            gap: 34px;
+
+        }
+        .right ul li{
+            list-style: none;
+        }
+        
+    </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.5ITPxbETB6k0RuFdokVqfgHaD4?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Pricing</li>
+                <li>Resources</li>
+                <li>Contact us</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     
 </body>
 </html>
