@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<style>
+    table,td,tr{
+        border: 1px solid black;
+        border-collapse: collapse ;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <h1>Karan</h1>
+        <figure> 
+            <img src="image.jpg" width="200" alt="profile">
+            <figcaption>Software Engineer</figcaption>
+            <!-- figcaption tag is used to give a caption to the image and it is placed after the image tag. It is used to describe the image and it is displayed below the image. It is a block-level element and it takes up the full width of the container. It is also used to group the image and the caption together. -->
+        </figure>
+        <!-- figure tag is used to group the image and the caption together. It is a block-level element and it takes up the full width of the container. 
+         hum chahte to div bhi use kr sakte the but fir image or caption side shift nahi hote-->
+
+
+        <!-- <span>Software Engineer</span>  agar mai span ke andar likhta to text image ke baad se hi shuru ho jata but paragraph ke andar likhne se text image ke neeche se shuru hota hai. -->
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore atque dolorum nostrum alias cumque id nisi maxime expedita <br> dolorem quos blanditiis rem, error enim suscipit ab, fugit eveniet obcaecati explicabo? <br> Omnis, sapiente cum magni accusamus odit earum fugiat veniam laborum.
+        </p>
+        <div>
+            <h2>Contact</h2>
+            <div>
+
+                <span>
+                    <b>Email Id:-</b> abc@gmail.com 
+                    <br>
+                    <strong>Mobile no.:-</strong>9182823721 
+                        <!-- Strong tag bhi use kr sakte hai instead of bold tag -->
+                </span>
+            </div>
+        </div>
+        <div>
+            <h2> Skills</h2>
+            <!-- yaha hum div tag use nahi karenge kyuki sinlge child hai iska.... agar multiple child hote tb hum div ka use karte -->
+                <ul>
+                    <li><b>Language: </b> C++, Java, Python </li>
+                    <li> <b>Frontend:-</b> HTML, CSS, JS, React, Node</li>
+                    <li><b>Backend:-</b> Express, MongoDB</li>
+                </ul>
+        </div>
+        <div>
+            <h2>Language</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Listening Music</li>
+                <li>Reading Books</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Experience</h2>
+            <div>
+                <h3>Google- Senior Web Developer</h3>
+                <ul>
+                    January 2023 to Present
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, sunt?</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, sunt?</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Amaom- Jr. Web developer</h3>
+                <ul>
+                    January 2024- 2025
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>University/College </th>
+                    <th>Course</th>
+                    <th>Passing year</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>ABc college</td>
+                    <td>btech</td>
+                    <td>2025</td>
+                    <td>89%</td>
+                </tr>
+                <tr>
+                    <td>xyz college</td>
+                    <td>mtech</td>
+                    <td>2026</td>
+                    <td>78%</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2>Projects</h2>
+            <ol>
+                <li><b>Project 1</b>
+                    <br>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </li>
+                <br>
+                <li><b>Project 2</b>
+                    <br>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </li>
+            </ol>
+        </div>
+
+
+    </div>
+</body>
+</html>
