@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* universal selector */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+.loginpage {
+font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  gap: 20px;
+  width: 50%;
+  height: 70%;
+  background-color: rgba(95, 95, 95, 0.368);
+  /* filter: blur(1px); */
+  backdrop-filter: blur(1px); /*blur krne ke liye */
+}
+.login-details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  gap: 10px;
+}
+.password {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 80px;
+}
+input[type="text"],
+input[type="password"] {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button{
+    font-family: "Iosevka Charon", monospace;
+    cursor: pointer;
+ padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background: linear-gradient(rgba(229, 229, 222, 0.411), rgba(128, 128, 128, 0.342));
+}
+p{
+    cursor: pointer;
+    text-decoration: underline;
+}
